@@ -1,0 +1,315 @@
+{
+  "routeBase": "descomui",
+  "nodeSearchBaseApiUrl": "http://192.168.15.27:8080/desnodesearch/",
+  "nodeSearchBaseApiUrl1": "http://localhost:4100/",
+  "javaSearchBaseApiUrl": "http://192.168.15.30:5100/",
+  "msSearchBaseApiUrl": "http://192.168.15.91:8061/",
+  "msEndecaBaseApiUrl": "http://192.168.15.91:8061/",
+  "authbaseApiUrl1": "http://localhost:4900/",
+  "authbaseApiUrl": "http://192.168.15.27:8080/desauth/",
+  "xpbaseApiUrl": "http://192.168.15.27:8080/desxp/",
+  "xpbaseApiUrl1": "http://localhost:4200/",
+  "signalbaseApiUrl1": "http://192.168.15.27:8080/dessignals/",
+  "signalbaseApiUrl": "http://localhost:4400/",
+  "_commentAPP_ENV": "allowed env are DEV : local and CLOUD:192 URL and PROD:headless",
+  "APP_ENV": "CLOUD",
+  "prod_nodeSearchBaseApiUrl": "http://headless.logixal.com:8080/desnodesearch/",
+  "prod_javaSearchBaseApiUrl": "http://headless.logixal.com:8080/desjavsearch/",
+  "prod_msSearchBaseApiUrl": "http://192.168.15.30:8061/",
+  "prod_msEndecaBaseApiUrl": "http://192.168.15.30:8061/",
+  "prod_authbaseApiUrl": "http://headless.logixal.com:8080/desauth/",
+  "prod_authbaseApiUrl1": "http://headless.logixal.com:8080/desauth/",
+  "prod_xpbaseApiUrl": "http://headless.logixal.com:8080/desxp/",
+  "prod_signalbaseApiUrl1": "http://192.168.15.27:4400/",
+  "prod_signalbaseApiUrl": "http://headless.logixal.com:8080/dessignals/",
+  "cloud_strapiurl": "http://192.168.15.91:1337",
+  "gcp_nodeSearchBaseApiUrl": "http://34.93.161.252:4100/",
+  "gcp_javaSearchBaseApiUrl": "http://headless.logixal.com:8080/desjavsearch/",
+  "gcp_msSearchBaseApiUrl": "http://192.168.15.30:8061/",
+  "gcp_msEndecaBaseApiUrl": "http://192.168.15.30:8061/",
+  "gcp_authbaseApiUrl": "http://34.93.161.252:4900/",
+  "gcp_xpbaseApiUrl": "http://34.93.161.252:4201/",
+  "gcp_signalbaseApiUrl": "http://34.93.161.252:4400/",
+  "cloud_nodeSearchBaseApiUrl": "http://192.168.15.27:8080/desnodesearch/",
+  "cloud_nodeSearchBaseApiUrl1": "http://localhost:4100/",
+  "cloud_javaSearchBaseApiUrl": "http://192.168.15.27:5100/",
+  "cloud_msSearchBaseApiUrl": "http://192.168.15.30:8061/",
+  "cloud_msEndecaBaseApiUrl": "http://192.168.15.30:8061/",
+  "cloud_authbaseApiUrl1": "http://127.0.0.1:4900/",
+  "cloud_authbaseApiUrl": "http://192.168.15.27:8080/desauth/",
+  "cloud_xpbaseApiUrl": "http://192.168.15.27:8080/desxp/",
+  "cloud_xpbaseApiUrl1": "http://localhost:4200/",
+  "cloud_signalbaseApiUrl": "http://192.168.15.27:8080/dessignals/",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZmRiNjEyMThjMDMxMzAwMTA5NzA4NDYiLCJmdWxsIjp7InN1YnNjcmlwdGlvbiI6IlByaW1lIiwibGFzdE5hbWUiOiJkZXMiLCJsb2NhdGlvbiI6IiIsInVzZXJuYW1lIjoiMGM5MjcxMzMxZDY2OTM1ZTAxNWE5ODRiMDlmYWUyZGUzMTA5ZWVhYjNmZDBlZjE0YjRjMTBkYzE5NGNlYTc5ZiIsImludGVyZXN0IjoiIiwiaXNCMkIiOmZhbHNlLCJ1cGRhdGVkRGF0ZSI6IjIwMjAtMTItMTdUMTM6NDY6MDkuODQyWiIsInJhd191c2VybmFtZSI6ImphbmVwIiwiZGF0ZU9mQmlydGgiOm51bGwsImFnZSI6MCwiZ2VuZGVyIjoiIiwic2VnbWVudCI6IiIsInJhd19lbWFpbCI6InNhY2hpbi5yYWp3YWRlQGxvZ2l4YWwuY29tIiwidGVuYW50SWQiOiJERVMiLCJ1c2VydHlwZSI6IkNVU1RPTUVSIiwiX2lkIjoiNWZkYjYxMjE4YzAzMTMwMDEwOTcwODQ2Iiwib3JnYW5pemF0aW9uIjoiIiwiaXNCMkJIUSI6ZmFsc2UsImZpcnN0TmFtZSI6ImphbmUgcGV0ZXJzIiwiY2hhcmFjdGVyc3RpY3MiOnsiY3VzdG9tZXJfcmFuayI6MX19LCJpc0V4dGVybmFsIjpmYWxzZSwidHlwZSI6IkNVU1RPTUVSIiwiaWF0IjoxNjY2Njg0OTUxfQ.WVjd7d4htQZTc2zDFBA7BSKTBehL52f25oRzH0QvEoQ",
+  "nodeSearchRouterBase": "logsearch",
+  "companydata": {
+    "part_url": "/companies"
+  },
+  "investorsdata": {
+    "part_url": "/investors"
+  },
+  "newsdata": {
+    "part_url": "/news"
+  },
+  "careersdata": {
+    "part_url": "/careers"
+  },
+  "policiesdata": {
+    "part_url": "/policies"
+  },
+  "govt_reldata": {
+    "part_url": "/government-relations"
+  },
+  "collection": "NewCommerceSolr",
+  "apiUrlData": {
+    "login": {
+      "DES": {
+        "part_url": "users/external/authenticate"
+      },
+      "MSDES": {
+        "part_url": "users/external/authenticate"
+      },
+      "MSATG": {
+        "part_url": "users/external/authenticateuser"
+      },
+      "part_url": "users/external/authenticate"
+    },
+    "logout": {
+      "part_url": "users/logout"
+    },
+    "newAccessToken": {
+      "part_url": "users/newAccessToken"
+    },
+    "suggest": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/Suggest/{searchTerm}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=Suggest&id={searchTerm}*"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findById?collection={collectionId}&apiName=Suggest&id={searchTerm}*"
+      },
+      "part_url": "logsearch/{collectionId}/query/Suggest/{searchTerm}"
+    },
+    "searchResult": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/NewCommerce/{searchString}/{facet}?sort=0"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/productSearch/{searchString}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/productSearch/{searchString}"
+      },
+      "part_url": "logsearch/{collectionId}/query/NewCommerce/{searchString}/{facet}?sort={sortedKey}"
+    },
+    "externalData": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/{dealParam}/{searchString}/{facet}?sort={sortedKey}"
+      },
+      "MSDES": {
+        "part_url": "/query/{dealParam}/{searchString}/{facet}?sort={sortedKey}"
+      },
+      "MSATG": {
+        "part_url": "/query/{dealParam}/{searchString}/{facet}?sort={sortedKey}"
+      },
+      "part_url": "/query/{dealParam}/{searchString}/{facet}?sort={sortedKey}"
+    },
+    "homePageData": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/{fragmentId}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findByApiName?collection={collectionId}&apiName={fragmentId}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findByApiName?collection={collectionId}&apiName={fragmentId}"
+      },
+      "part_url": "{collectionId}/query/{fragmentId}"
+    },
+    "homePageRecommendData": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/{fragmentId}/{userid}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName={fragmentId}&id={userid}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findById?collection={collectionId}&apiName={fragmentId}&id={userid}"
+      },
+      "part_url": "logsearch/{collectionId}/query/{fragmentId}/{userid}"
+    },
+    "categoryTree": {
+      "DES": {
+        "part_url": "query/PivotedFacets/{!ex=dt key=categorylist}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection=NewCommerceSolr&apiName=PivotedFacets&id="
+      },
+      "MSATG": {
+        "part_url": "productcatalog/descom/findById?collection=NewCommerceSolr&apiName=PivotedFacets&id="
+      },
+      "part_url": "query/PivotedFacets/{!ex=dt key=categorylist}"
+    },
+    "facetFields": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/GetFacets/{facetTerm}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=GetFacets&id={facetTerm}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=GetFacets&id={facetTerm}"
+      },
+      "part_url": "/query/GetFacets/{facetTerm}"
+    },
+    "productDetails": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/ProductPageNew/{productId}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=ProductPage&id={productId}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findById?collection={collectionId}&apiName=ProductPage&id={productId}"
+      },
+      "part_url": "logsearch/{collectionId}/query/ProductPageNew/{productId}"
+    },
+    "productAttributes": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/ProductAttributes/{productId}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=ProductPage&id={productId}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findById?collection={collectionId}&apiName=ProductPage&id={productId}"
+      },
+      "part_url": "logsearch/{collectionId}/query/ProductAttributes/{productId}"
+    },
+    "ProductTags": {
+      "part_url": "product/tags/{collectionId}/{productId}"
+    },
+    "ItemMLRecommendation": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/ItemMLRecommendation/{productId}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=ItemMLRecommendation&id={productId}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findById?collection={collectionId}&apiName=ItemMLRecommendation&id={productId}"
+      },
+      "part_url": "logsearch/{collectionId}/query/ItemMLRecommendation/{productId}"
+    },
+    "cartProducts": {
+      "part_url": "logsearch/{collectionId}/query/CartProducts/{productId}"
+    },
+    "signals": {
+      "part_url": "signal/register"
+    },
+    "pagesignals": {
+      "part_url": "pagesignal/pageclick"
+    },
+    "addToCart": {
+      "part_url": "cart/add/{collection}"
+    },
+    "viewCart": {
+      "part_url": "cart/viewCart/{collection}/{typecart}"
+    },
+    "deleteFromCart": {
+      "part_url": "cart/add/{collection}/{prodindex}"
+    },
+    "moveToWishList": {
+      "part_url": "cart/add/{collection}"
+    },
+    "moveToSaveForLater": {
+      "part_url": "cart/add/{collection}"
+    },
+    "userpreference": {
+      "part_url": "userpref/updatePref/{collection}"
+    },
+    "getuserpreference": {
+      "part_url": "userpref/getPrefById/{collection}"
+    },
+    "checkout": {
+      "part_url": "cart/checkout/{collection}/{fragment}"
+    },
+    "currentOrders": {
+      "part_url": "cart/vieworders/{collection}/O"
+    },
+    "pastOrders": {
+      "part_url": "cart/vieworders/{collection}/F"
+    },
+    "cancelOrder": {
+      "part_url": "cart/cancelorder/{collection}"
+    },
+    "cancelledOrders": {
+      "part_url": "cart/vieworders/{collection}/X"
+    },
+    "PDPDeals": {
+      "part_url": "expmanager/getExperience/PDPDeals"
+    },
+    "CategoryDeals": {
+      "part_url": "expmanager/getExperience/CategoryDeals"
+    },
+    "menuTree": {
+      "part_url": "expmanager/getExperience/Menu"
+    },
+    "banner": {
+      "part_url": "expmanager/getExperience/Banner"
+    },
+    "layout": {
+      "part_url": "expmanager/getExperience/Layout"
+    },
+    "homePageStructure": {
+      "part_url": "expmanager/getExperience/Pages/Home"
+    },
+    "PDPPageStructure": {
+      "part_url": "expmanager/getExperience/Pages/PDP"
+    },
+    "CategoryPageStructure": {
+      "part_url": "expmanager/getExperience/Pages/Category"
+    },
+    "PLPPageStructure": {
+      "part_url": "expmanager/getExperience/Pages/PLP"
+    },
+    "CartMLRecommendation": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/CartProducts"
+      },
+      "MSDES": {
+        "part_url": "logsearch/{collectionId}/query/CartProducts"
+      },
+      "MSATG": {
+        "part_url": "logsearch/{collectionId}/query/CartProducts"
+      },
+      "part_url": "logsearch/{collectionId}/query/CartProducts"
+    },
+    "ItemABRecommendation": {
+      "DES": {
+        "part_url": "logsearch/{collectionId}/query/ItemABRecommendation/{productId}"
+      },
+      "MSDES": {
+        "part_url": "productcatalog/descom/findById?collection={collectionId}&apiName=ItemABRecommendation&id={productId}"
+      },
+      "MSATG": {
+        "part_url": "productcatalog/endeca/findById?collection={collectionId}&apiName=ItemABRecommendation&id={productId}"
+      },
+      "part_url": "logsearch/{collectionId}/query/ItemABRecommendation/{productId}"
+    },
+    "profile": {
+      "DES": {
+        "part_url": "users/current"
+      },
+      "MSDES": {
+        "part_url": "users/external/authenticate"
+      },
+      "MSATG": {
+        "part_url": "users/external/authenticateuser"
+      },
+      "part_url": "users/current"
+    }
+  }
+}

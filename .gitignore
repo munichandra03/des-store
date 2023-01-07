@@ -1,0 +1,7 @@
+source/node_modules
+source/.next
+source/yarn-error.log
+source/out
+nextjs-uiux
+source/.env
+source/yarn.lock

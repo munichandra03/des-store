@@ -1,0 +1,267 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 912,
+    "params": {
+      "defType": "edismax",
+      "json": "{\"params\":{\"q\":[\"*:*\"],\"debug\":[\"true\"],\"des_stage_values\":[\"\"],\"showBoosted\":true,\"des_stage_names\":[\"Best Sellers\"],\"bq\":[\"\"]}}"
+    }
+  },
+  "response": {
+    "numFound": 3765235,
+    "start": 0,
+    "maxScore": 1,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "Brand": "Levi",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0121201617061367M.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "view all",
+        "ListPrice": 52.6,
+        "SalePrice": 39,
+        "Title": "Levi's® Sleeveless Denim Peplum Top",
+        "id": "91b5431ae793dda8c68912bb6b3f8a9c"
+      },
+      {
+        "Brand": "Isotoner",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0729201517024139M.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "view all brands",
+        "ListPrice": 55.6,
+        "SalePrice": 22.2,
+        "Title": "Isotoner® Smartouch Brushed Microsuede Texting Gloves",
+        "id": "91e4040d129d326b0295b5c824ecb190"
+      },
+      {
+        "Brand": "Mossy Oak",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0119201517021797M.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "sale",
+        "ListPrice": 65,
+        "SalePrice": 52,
+        "Title": "Mossy Oak® Mens Orange Bezel Camouflage Silicone Strap Sport Watch",
+        "id": "92a3afeea5eaa1b1370654ae2175117f"
+      },
+      {
+        "Brand": "Levi",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0121201617052253M.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "buy more and save",
+        "ListPrice": 43.5,
+        "SalePrice": 21.7,
+        "Title": "Levi's® 514™ Straight-Fit Jeans - Toddler Boys 2t-5t",
+        "id": "90ff7ab38e118846124e2dd619e67b63"
+      },
+      {
+        "Brand": "Realtree",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0210201617062496M.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "view all guys",
+        "ListPrice": 70.9,
+        "SalePrice": 49.6,
+        "Title": "Realtree® Ripstop Long-Sleeve Shirt",
+        "id": "92ad82d007111410abe0bdde3dea2819"
+      },
+      {
+        "Brand": "St. John's Bay",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0727201520353368C.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "pants",
+        "ListPrice": 42.5,
+        "SalePrice": 17.7,
+        "Title": "St. John's Bay® Print Woven Palazzo Pants",
+        "id": "92b6f24d6704350bdb48030f983d9c5c"
+      },
+      {
+        "Brand": "INK + IVY",
+        "ImageUrl": "http://s7d9.scene7.com/is/image/JCPenney/DP0814201517031862M.tif?hei=306&amp;wid=306&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+        "L1Category": "teens' rooms",
+        "ListPrice": 265,
+        "SalePrice": 145,
+        "Title": "INK+IVY Sierra Ikat 3-pc. Comforter Set",
+        "id": "92ba2ce516baffc4075a63eb49a43f05"
+      },
+      {
+        "Brand": "Vieste Rosa",
+        "ImageUrl": "http://s7d9.scene7.com/is/image/JCPenney/DP0427201617025948M.tif?hei=306&amp;wid=306&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+        "L1Category": "special occasion jewelry",
+        "ListPrice": 36.2,
+        "SalePrice": 25.3,
+        "Title": "Vieste® Rhinestone Flower Necklace & Earring Set",
+        "id": "92ce6ab9d52f1e4f664300d093e414c6"
+      },
+      {
+        "Brand": "MODERN BRIDE",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81E719BCM.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "sterling silver jewelry",
+        "ListPrice": 788,
+        "SalePrice": 433,
+        "Title": "Mens 1/2 CT.T.W. Black Diamond Ring 14K Gold Over Silver",
+        "id": "92d8a7c6284ffc7f8cb322816517d02e"
+      },
+      {
+        "Brand": "FINE JEWELRY",
+        "ImageUrl": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201517012210M.tif?wid=306&hei=306&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+        "L1Category": "personalized watches",
+        "ListPrice": 48.3,
+        "SalePrice": 38.6,
+        "Title": "Personalized Stick Figure Family Gold-Tone Pocket Watch",
+        "id": "9307e513066c80aefef8a5b430723543"
+      }
+    ]
+  },
+  "spellcheck": {
+    "suggestions": [],
+    "correctlySpelled": true,
+    "collations": []
+  },
+  "debug": {
+    "queryBoosting": {
+      "q": "*:*",
+      "match": null
+    },
+    "track": {
+      "rid": "-22675",
+      "EXECUTE_QUERY": {
+        "http://192.168.208.7:8983/solr/KDGSolrNew_shard2_replica_n4/|http://192.168.208.5:8983/solr/KDGSolrNew_shard2_replica_n5/": {
+          "QTime": "355",
+          "ElapsedTime": "544",
+          "RequestPurpose": "GET_TOP_IDS,SET_TERM_STATS",
+          "NumFound": "1255227",
+          "Response": "{responseHeader={zkConnected=true,status=0,QTime=355,params={spellcheck.collateExtendedResults=true,df=text_ltr,distrib=false,spellcheck.dictionary=default,showBoosted=true,fl=[id, score],shards.purpose=16388,spellcheck.maxCollations=5,fsv=true,spellcheck.maxCollationTries=10,shard.url=http://192.168.208.7:8983/solr/KDGSolrNew_shard2_replica_n4/|http://192.168.208.5:8983/solr/KDGSolrNew_shard2_replica_n5/,rid=-22675,bq=,defType=edismax,spellcheck.maxResultsForSuggest=5,des_stage_values=,json={\"params\":{\"q\":[\"*:*\"],\"debug\":[\"true\"],\"des_stage_values\":[\"\"],\"showBoosted\":true,\"des_stage_names\":[\"Best Sellers\"],\"bq\":[\"\"]}},wt=javabin,debug=[false, timing, track],start=0,des_stage_names=Best Sellers,rows=10,spellcheck.alternativeTermCount=5,version=2,spellcheck.extendedResults=true,q=*:*,spellcheck=true,omitHeader=false,requestPurpose=GET_TOP_IDS,SET_TERM_STATS,NOW=1667476697317,isShard=true,spellcheck.count=10,debugQuery=false,spellcheck.collate=true}},response={numFound=1255227,numFoundExact=true,start=0,maxScore=1.0,docs=[SolrDocument{id=7666383, score=1.0}, SolrDocument{id=8627350, score=1.0}, SolrDocument{id=8629682, score=1.0}, SolrDocument{id=7294174, score=1.0}, SolrDocument{id=7295014, score=1.0}, SolrDocument{id=8630423, score=1.0}, SolrDocument{id=8631824, score=1.0}, SolrDocument{id=7662409, score=1.0}, SolrDocument{id=7662416, score=1.0}, SolrDocument{id=8623208, score=1.0}]},sort_values={},debug={json={params={q=[*:*], debug=[true], des_stage_values=[], showBoosted=true, des_stage_names=[Best Sellers], bq=[]}},timing={time=1.0,prepare={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}},process={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}}}}}"
+        },
+        "http://192.168.208.5:8983/solr/KDGSolrNew_shard1_replica_n1/|http://192.168.208.6:8983/solr/KDGSolrNew_shard1_replica_n2/": {
+          "QTime": "352",
+          "ElapsedTime": "604",
+          "RequestPurpose": "GET_TOP_IDS,SET_TERM_STATS",
+          "NumFound": "1254005",
+          "Response": "{responseHeader={zkConnected=true,status=0,QTime=352,params={spellcheck.collateExtendedResults=true,df=text_ltr,distrib=false,spellcheck.dictionary=default,showBoosted=true,fl=[id, score],shards.purpose=16388,spellcheck.maxCollations=5,fsv=true,spellcheck.maxCollationTries=10,shard.url=http://192.168.208.5:8983/solr/KDGSolrNew_shard1_replica_n1/|http://192.168.208.6:8983/solr/KDGSolrNew_shard1_replica_n2/,rid=-22675,bq=,defType=edismax,spellcheck.maxResultsForSuggest=5,des_stage_values=,json={\"params\":{\"q\":[\"*:*\"],\"debug\":[\"true\"],\"des_stage_values\":[\"\"],\"showBoosted\":true,\"des_stage_names\":[\"Best Sellers\"],\"bq\":[\"\"]}},wt=javabin,debug=[false, timing, track],start=0,des_stage_names=Best Sellers,rows=10,spellcheck.alternativeTermCount=5,version=2,spellcheck.extendedResults=true,q=*:*,spellcheck=true,omitHeader=false,requestPurpose=GET_TOP_IDS,SET_TERM_STATS,NOW=1667476697317,isShard=true,spellcheck.count=10,debugQuery=false,spellcheck.collate=true}},response={numFound=1254005,numFoundExact=true,start=0,maxScore=1.0,docs=[SolrDocument{id=3050540, score=1.0}, SolrDocument{id=3050572, score=1.0}, SolrDocument{id=3050885, score=1.0}, SolrDocument{id=3050585, score=1.0}, SolrDocument{id=3051734, score=1.0}, SolrDocument{id=3050610, score=1.0}, SolrDocument{id=3051257, score=1.0}, SolrDocument{id=3051269, score=1.0}, SolrDocument{id=3051290, score=1.0}, SolrDocument{id=3084172, score=1.0}]},sort_values={},debug={json={params={q=[*:*], debug=[true], des_stage_values=[], showBoosted=true, des_stage_names=[Best Sellers], bq=[]}},timing={time=0.0,prepare={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}},process={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}}}}}"
+        },
+        "http://192.168.208.7:8983/solr/KDGSolrNew_shard3_replica_n7/|http://192.168.208.6:8983/solr/KDGSolrNew_shard3_replica_n6/": {
+          "QTime": "353",
+          "ElapsedTime": "605",
+          "RequestPurpose": "GET_TOP_IDS,SET_TERM_STATS",
+          "NumFound": "1256003",
+          "Response": "{responseHeader={zkConnected=true,status=0,QTime=353,params={spellcheck.collateExtendedResults=true,df=text_ltr,distrib=false,spellcheck.dictionary=default,showBoosted=true,fl=[id, score],shards.purpose=16388,spellcheck.maxCollations=5,fsv=true,spellcheck.maxCollationTries=10,shard.url=http://192.168.208.7:8983/solr/KDGSolrNew_shard3_replica_n7/|http://192.168.208.6:8983/solr/KDGSolrNew_shard3_replica_n6/,rid=-22675,bq=,defType=edismax,spellcheck.maxResultsForSuggest=5,des_stage_values=,json={\"params\":{\"q\":[\"*:*\"],\"debug\":[\"true\"],\"des_stage_values\":[\"\"],\"showBoosted\":true,\"des_stage_names\":[\"Best Sellers\"],\"bq\":[\"\"]}},wt=javabin,debug=[false, timing, track],start=0,des_stage_names=Best Sellers,rows=10,spellcheck.alternativeTermCount=5,version=2,spellcheck.extendedResults=true,q=*:*,spellcheck=true,omitHeader=false,requestPurpose=GET_TOP_IDS,SET_TERM_STATS,NOW=1667476697317,isShard=true,spellcheck.count=10,debugQuery=false,spellcheck.collate=true}},response={numFound=1256003,numFoundExact=true,start=0,maxScore=1.0,docs=[SolrDocument{id=7470287, score=1.0}, SolrDocument{id=7472055, score=1.0}, SolrDocument{id=7461693, score=1.0}, SolrDocument{id=7461909, score=1.0}, SolrDocument{id=7462976, score=1.0}, SolrDocument{id=7525830, score=1.0}, SolrDocument{id=7486329, score=1.0}, SolrDocument{id=7486359, score=1.0}, SolrDocument{id=7486932, score=1.0}, SolrDocument{id=7486939, score=1.0}]},sort_values={},debug={json={params={q=[*:*], debug=[true], des_stage_values=[], showBoosted=true, des_stage_names=[Best Sellers], bq=[]}},timing={time=1.0,prepare={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}},process={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}}}}}"
+        }
+      },
+      "GET_FIELDS": {
+        "http://192.168.208.5:8983/solr/KDGSolrNew_shard1_replica_n1/|http://192.168.208.6:8983/solr/KDGSolrNew_shard1_replica_n2/": {
+          "QTime": "0",
+          "ElapsedTime": "3",
+          "RequestPurpose": "GET_FIELDS,GET_DEBUG,SET_TERM_STATS",
+          "NumFound": "10",
+          "Response": "{responseHeader={zkConnected=true,status=0,QTime=0,params={spellcheck.collateExtendedResults=true,df=text_ltr,distrib=false,spellcheck.dictionary=default,showBoosted=true,shards.purpose=16704,spellcheck.maxCollations=5,spellcheck.maxCollationTries=10,shard.url=http://192.168.208.5:8983/solr/KDGSolrNew_shard1_replica_n1/|http://192.168.208.6:8983/solr/KDGSolrNew_shard1_replica_n2/,rid=-22675,bq=,defType=edismax,spellcheck.maxResultsForSuggest=5,des_stage_values=,json={\"params\":{\"q\":[\"*:*\"],\"debug\":[\"true\"],\"des_stage_values\":[\"\"],\"showBoosted\":true,\"des_stage_names\":[\"Best Sellers\"],\"bq\":[\"\"]}},wt=javabin,debug=[true, timing, track],des_stage_names=Best Sellers,rows=10,spellcheck.alternativeTermCount=5,version=2,spellcheck.extendedResults=true,q=*:*,spellcheck=false,omitHeader=false,requestPurpose=GET_FIELDS,GET_DEBUG,SET_TERM_STATS,NOW=1667476697317,ids=3084172,3051257,3051269,3051734,3051290,3050610,3050885,3050585,3050540,3050572,isShard=true,spellcheck.count=10,debugQuery=true,spellcheck.collate=true}},response={numFound=10,numFoundExact=true,start=0,docs=[SolrDocument{id=3084172, Title=Pinnacle Climate Technologies WMTA36-B, Sku=3084172, Brand=PINNACLE CLIMATE TECHNOLOGIES, ImageUrls=https://ec.kamandirect.com/content/images/products/pinnacle/thumb/WMTA36-B_400.png, ERP_ID=[ERP_3084172], SiteId=[storeSiteUS], ListPrice=6.0, SalePrice=6.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299533946881}, SolrDocument{id=3051257, Title=Ruland Manufacturing Co. FSR24-17MM-3/8''-SS, Sku=3051257, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FSR-SS.png, ERP_ID=[ERP_3051257], SiteId=[storeSiteUS], ListPrice=130.0, SalePrice=4.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299532898306}, SolrDocument{id=3051269, Title=Ruland Manufacturing Co. FSR24-19MM-3/8''-SS, Sku=3051269, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FSR-SS.png, ERP_ID=[ERP_3051269], SiteId=[storeSiteUS], ListPrice=35.0, SalePrice=3.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299532898307}, SolrDocument{id=3051734, Title=Ruland Manufacturing Co. MBS41-16-11-A, Sku=3051734, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Bellows-Coupling-MBS-A.png, ERP_ID=[ERP_3051734], SiteId=[storeSiteUS], ListPrice=26.0, SalePrice=6.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299532898304}, SolrDocument{id=3051290, Title=Ruland Manufacturing Co. FSR24-3/4''-15MM-A, Sku=3051290, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FSR-A.png, ERP_ID=[ERP_3051290], SiteId=[storeSiteUS], ListPrice=334.0, SalePrice=20.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299533946880}, SolrDocument{id=3050610, Title=Ruland Manufacturing Co. FCMR38-13-13-A, Sku=3050610, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FCMR-A.png, ERP_ID=[ERP_3050610], SiteId=[storeSiteUS], ListPrice=446.0, SalePrice=6.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299532898305}, SolrDocument{id=3050885, Title=Ruland Manufacturing Co. FCR24-3/4''-12MM-SS, Sku=3050885, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FCR-SS.png, ERP_ID=[ERP_3050885], SiteId=[storeSiteUS], ListPrice=125.0, SalePrice=13.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299531849729}, SolrDocument{id=3050585, Title=Ruland Manufacturing Co. FCMR32-15-11-SS, Sku=3050585, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FCMR-SS.png, ERP_ID=[ERP_3050585], SiteId=[storeSiteUS], ListPrice=318.0, SalePrice=20.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299531849730}, SolrDocument{id=3050540, Title=Ruland Manufacturing Co. FCMR25-12-9-SS, Sku=3050540, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FCMR-SS.png, ERP_ID=[ERP_3050540], SiteId=[storeSiteUS], ListPrice=271.0, SalePrice=20.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299529752578}, SolrDocument{id=3050572, Title=Ruland Manufacturing Co. FCMR32-13-11-SS, Sku=3050572, Brand=RULAND MFR CO INC, ImageUrls=https://ec.kamandirect.com/content/images/products/ruland/thumb/Beam-Coupling-FCMR-SS.png, ERP_ID=[ERP_3050572], SiteId=[storeSiteUS], ListPrice=447.0, SalePrice=4.0, last_modified_date=Tue May 31 08:53:02 UTC 2022, _version_=1734331299531849728}]},debug={queryBoosting={q=*:*,match=null},rawquerystring=*:*,querystring=*:*,parsedquery=+MatchAllDocsQuery(*:*),parsedquery_toString=+*:*,explain={3084172=\n1.0 = *:*\n,3051257=\n1.0 = *:*\n,3051269=\n1.0 = *:*\n,3051734=\n1.0 = *:*\n,3051290=\n1.0 = *:*\n,3050610=\n1.0 = *:*\n,3050885=\n1.0 = *:*\n,3050585=\n1.0 = *:*\n,3050540=\n1.0 = *:*\n,3050572=\n1.0 = *:*\n},json={params={q=[*:*], debug=[true], des_stage_values=[], showBoosted=true, des_stage_names=[Best Sellers], bq=[]}},QParser=ExtendedDismaxQParser,altquerystring=null,boost_queries=[],parsed_boost_queries=[],boostfuncs=null,timing={time=0.0,prepare={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}},process={time=0.0,query={time=0.0},facet={time=0.0},facet_module={time=0.0},mlt={time=0.0},highlight={time=0.0},stats={time=0.0},expand={time=0.0},terms={time=0.0},itemRecommender={time=0.0},spellcheck={time=0.0},elevator={time=0.0},debug={time=0.0}}}}}"
+        }
+      }
+    },
+    "json": {
+      "params": {
+        "q": ["*:*"],
+        "debug": ["true"],
+        "des_stage_values": [""],
+        "showBoosted": true,
+        "des_stage_names": ["Best Sellers"],
+        "bq": [""]
+      }
+    },
+    "timing": {
+      "time": 2,
+      "prepare": {
+        "time": 0,
+        "query": {
+          "time": 0
+        },
+        "facet": {
+          "time": 0
+        },
+        "facet_module": {
+          "time": 0
+        },
+        "mlt": {
+          "time": 0
+        },
+        "highlight": {
+          "time": 0
+        },
+        "stats": {
+          "time": 0
+        },
+        "expand": {
+          "time": 0
+        },
+        "terms": {
+          "time": 0
+        },
+        "itemRecommender": {
+          "time": 0
+        },
+        "spellcheck": {
+          "time": 0
+        },
+        "elevator": {
+          "time": 0
+        },
+        "debug": {
+          "time": 0
+        }
+      },
+      "process": {
+        "time": 0,
+        "query": {
+          "time": 0
+        },
+        "facet": {
+          "time": 0
+        },
+        "facet_module": {
+          "time": 0
+        },
+        "mlt": {
+          "time": 0
+        },
+        "highlight": {
+          "time": 0
+        },
+        "stats": {
+          "time": 0
+        },
+        "expand": {
+          "time": 0
+        },
+        "terms": {
+          "time": 0
+        },
+        "itemRecommender": {
+          "time": 0
+        },
+        "spellcheck": {
+          "time": 0
+        },
+        "elevator": {
+          "time": 0
+        },
+        "debug": {
+          "time": 0
+        }
+      }
+    },
+    "rawquerystring": "*:*",
+    "querystring": "*:*",
+    "parsedquery": "+MatchAllDocsQuery(*:*)",
+    "parsedquery_toString": "+*:*",
+    "QParser": "ExtendedDismaxQParser",
+    "altquerystring": null,
+    "boost_queries": [""],
+    "parsed_boost_queries": [],
+    "boostfuncs": null,
+    "explain": {
+      "3050540": "\n1.0 = *:*\n",
+      "3050572": "\n1.0 = *:*\n",
+      "3050585": "\n1.0 = *:*\n",
+      "3050610": "\n1.0 = *:*\n",
+      "3050885": "\n1.0 = *:*\n",
+      "3051257": "\n1.0 = *:*\n",
+      "3051269": "\n1.0 = *:*\n",
+      "3051290": "\n1.0 = *:*\n",
+      "3051734": "\n1.0 = *:*\n",
+      "3084172": "\n1.0 = *:*\n"
+    }
+  }
+}

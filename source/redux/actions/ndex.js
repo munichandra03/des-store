@@ -1,0 +1,3 @@
+const getKeepShopingFragment = (payload) => {
+    
+}

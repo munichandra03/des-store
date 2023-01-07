@@ -1,0 +1,1007 @@
+{
+  "wrapperArr": [
+    {
+      "Content": [
+        {
+          "title": "RelatedProducts",
+          "fragment": "RelatedProducts",
+          "fragmentComponent": "GenericComponent",
+          "data": "relatedproductslist",
+          "scrollreqd": true,
+          "noofitems": 5,
+          "styleclass": "abcd",
+          "order": 8,
+          "columnWidth": "full",
+          "isFooterReq": true,
+          "saleReq": false,
+          "sortReq": true,
+          "paginationReq": true,
+          "row": 3.1
+        },
+        {
+          "title": "Customers who viewed this item also viewed",
+          "fragment": "ItemABRecommendation",
+          "fragmentComponent": "GenericComponent",
+          "data": "itemabrecommendationlist",
+          "scrollreqd": true,
+          "noofitems": 5,
+          "styleclass": "abcd",
+          "order": 8,
+          "columnWidth": "full",
+          "saleReq": false,
+          "isFooterReq": true,
+          "sortReq": true,
+          "paginationReq": true,
+          "row": 4.1
+        },
+        {
+          "title": "Recommendations for you",
+          "fragment": "UserRecommend",
+          "fragmentComponent": "GenericComponent",
+          "data": "userrecommendlist",
+          "scrollreqd": true,
+          "noofitems": 5,
+          "styleclass": "abcd",
+          "order": 7,
+          "columnWidth": "full",
+          "isFooterReq": true,
+          "saleReq": false,
+          "sortReq": true,
+          "paginationReq": true,
+          "row": 6.1
+        },
+        {
+          "formData": [
+            {
+              "type": "productName",
+              "label": "<i className=\"fas fa-file-signature\" aria-hidden=\"true\"></i>",
+              "name": "productName-1606383810018"
+            },
+            {
+              "type": "Rating",
+              "label": "<i className=\"fas fa-star\" aria-hidden=\"true\"></i>",
+              "name": "Rating-1606383812222"
+            },
+            {
+              "type": "socialIcons",
+              "label": "<i className=\"fab fa-facebook-square\" aria-hidden=\"true\"></i>",
+              "name": "socialIcons-1606383820259"
+            },
+            {
+              "type": "Price",
+              "label": "<i className=\"fas fa-tags\" aria-hidden=\"true\"></i>",
+              "name": "Price-1606383822324"
+            },
+            {
+              "type": "Quantity",
+              "label": "<i className=\"fas fa-list-ol\" aria-hidden=\"true\"></i>",
+              "name": "Quantity-1606383826344"
+            },
+            {
+              "type": "Swatches",
+              "label": "<i className=\"fas fa-swatchbook\" aria-hidden=\"true\"></i>",
+              "name": "Swatches-1606383830171"
+            },
+            {
+              "type": "shippingBox",
+              "label": "<i className=\"fas fa-shipping-fast\" aria-hidden=\"true\"></i>",
+              "name": "shippingBox-1606383834424"
+            },
+            {
+              "type": "twoButtons",
+              "label": "<img src=\"https://img.icons8.com/material-sharp/20/000000/button2.png\">",
+              "name": "twoButtons-1606383840545"
+            }
+          ]
+        }
+      ],
+      "Structure": [
+        {
+          "id": "bccd4d90-2fcb-11eb-8491-59e3c09151b2",
+          "type": "GRID_LAYOUT_1_1",
+          "name": "Row",
+          "payload": {
+            "dropped": true
+          },
+          "fragname": "Row",
+          "fragdata": "rowlist",
+          "fragorder": 0,
+          "childColumnWidth": "full",
+          "style": "oj-sm-12 oj-md-12 oj-lg-12",
+          "compdata": "",
+          "key": "bccd4d90-2fcb-11eb-8491-59e3c09151b2",
+          "dropzoneID": "root",
+          "parentID": "root",
+          "showBasicContent": false,
+          "initialElements": [
+            {
+              "id": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+              "type": "GRID_LAYOUT_1_2",
+              "name": "1/2 Grid",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 0,
+              "key": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+              "dropzoneID": "1",
+              "parentID": "bccd4d90-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": [
+                {
+                  "id": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "PDPCOMPONENTS",
+                  "name": "Product-Description",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Description",
+                    "fragment": "Product-Description",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-descriptionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 3,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 3,
+                  "key": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "2",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                },
+                {
+                  "id": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "COMPONENT",
+                  "name": "Product-Images-Section",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Images-Section",
+                    "fragment": "Product-Images-Section",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-images-sectionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 1,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 1,
+                  "key": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "1",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                }
+              ],
+              "fields": [
+                {
+                  "id": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "PDPCOMPONENTS",
+                  "name": "Product-Description",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Description",
+                    "fragment": "Product-Description",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-descriptionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 3,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 3,
+                  "key": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "2",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                },
+                {
+                  "id": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "COMPONENT",
+                  "name": "Product-Images-Section",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Images-Section",
+                    "fragment": "Product-Images-Section",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-images-sectionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 1,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 1,
+                  "key": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "1",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "id": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+              "type": "GRID_LAYOUT_1_2",
+              "name": "1/2 Grid",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 0,
+              "key": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+              "dropzoneID": "1",
+              "parentID": "bccd4d90-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": [
+                {
+                  "id": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "PDPCOMPONENTS",
+                  "name": "Product-Description",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Description",
+                    "fragment": "Product-Description",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-descriptionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 3,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 3,
+                  "key": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "2",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                },
+                {
+                  "id": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "COMPONENT",
+                  "name": "Product-Images-Section",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Images-Section",
+                    "fragment": "Product-Images-Section",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-images-sectionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 1,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 1,
+                  "key": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "1",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                }
+              ],
+              "fields": [
+                {
+                  "id": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "PDPCOMPONENTS",
+                  "name": "Product-Description",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Description",
+                    "fragment": "Product-Description",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-descriptionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 3,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 3,
+                  "key": "c41b1d70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "2",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                },
+                {
+                  "id": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "type": "COMPONENT",
+                  "name": "Product-Images-Section",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "1/2 Grid",
+                  "fragArr": {
+                    "title": "Product-Images-Section",
+                    "fragment": "Product-Images-Section",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "product-images-sectionlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 1,
+                    "columnWidth": "half",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "half",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-6",
+                  "compdata": "",
+                  "fragorder": 1,
+                  "key": "bfd7ce70-2fcb-11eb-8491-59e3c09151b2",
+                  "dropzoneID": "1",
+                  "parentID": "be17a7e0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ba84bd20-2fcb-11eb-8491-59e3c09151b2",
+          "type": "GRID_LAYOUT_1_1",
+          "name": "Row",
+          "payload": {
+            "dropped": true
+          },
+          "fragname": "Row",
+          "fragdata": "rowlist",
+          "fragorder": 0,
+          "childColumnWidth": "full",
+          "style": "oj-sm-12 oj-md-12 oj-lg-12",
+          "compdata": "",
+          "key": "ba84bd20-2fcb-11eb-8491-59e3c09151b2",
+          "dropzoneID": "root",
+          "parentID": "root",
+          "showBasicContent": false,
+          "initialElements": [
+            {
+              "id": "c17ec7b0-2fcb-11eb-8491-59e3c09151b2",
+              "type": "COMPONENT",
+              "name": "Product-Extra-Details",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "Product-Extra-Details",
+                "fragment": "Product-Extra-Details",
+                "fragmentComponent": "GenericComponent",
+                "data": "product-extra-detailslist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 2,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 2,
+              "key": "c17ec7b0-2fcb-11eb-8491-59e3c09151b2",
+              "dropzoneID": "1",
+              "parentID": "ba84bd20-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ],
+          "fields": [
+            {
+              "id": "c17ec7b0-2fcb-11eb-8491-59e3c09151b2",
+              "type": "COMPONENT",
+              "name": "Product-Extra-Details",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "Product-Extra-Details",
+                "fragment": "Product-Extra-Details",
+                "fragmentComponent": "GenericComponent",
+                "data": "product-extra-detailslist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 2,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 2,
+              "key": "c17ec7b0-2fcb-11eb-8491-59e3c09151b2",
+              "dropzoneID": "1",
+              "parentID": "ba84bd20-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ]
+        },
+        {
+          "id": "8fec8d30-33af-11eb-969d-e724830a1584",
+          "type": "GRID_LAYOUT_1_1",
+          "name": "Row",
+          "payload": {
+            "dropped": true
+          },
+          "fragname": "Row",
+          "fragdata": "rowlist",
+          "fragorder": 7,
+          "childColumnWidth": "full",
+          "style": "oj-sm-12 oj-md-12 oj-lg-12",
+          "compdata": "",
+          "key": "8fec8d30-33af-11eb-969d-e724830a1584",
+          "dropzoneID": "root",
+          "parentID": "root",
+          "showBasicContent": false,
+          "initialElements": [
+            {
+              "id": "96496d60-33af-11eb-969d-e724830a1584",
+              "type": "COMPONENT",
+              "name": "RelatedProducts",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "RelatedProducts",
+                "fragment": "RelatedProducts",
+                "fragmentComponent": "GenericComponent",
+                "data": "relatedproductslist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 8,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 8,
+              "key": "96496d60-33af-11eb-969d-e724830a1584",
+              "dropzoneID": "1",
+              "parentID": "8fec8d30-33af-11eb-969d-e724830a1584",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ],
+          "fields": [
+            {
+              "id": "96496d60-33af-11eb-969d-e724830a1584",
+              "type": "COMPONENT",
+              "name": "RelatedProducts",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "RelatedProducts",
+                "fragment": "RelatedProducts",
+                "fragmentComponent": "GenericComponent",
+                "data": "relatedproductslist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 8,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 8,
+              "key": "96496d60-33af-11eb-969d-e724830a1584",
+              "dropzoneID": "1",
+              "parentID": "8fec8d30-33af-11eb-969d-e724830a1584",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ]
+        },
+        {
+          "id": "b9b3c860-8d1c-11eb-94fa-bf82f65af752",
+          "type": "GRID_LAYOUT_1_1",
+          "name": "Row",
+          "payload": {
+            "dropped": true
+          },
+          "fragname": "Row",
+          "fragdata": "rowlist",
+          "fragorder": 7,
+          "childColumnWidth": "full",
+          "style": "oj-sm-12 oj-md-12 oj-lg-12",
+          "compdata": "",
+          "key": "b9b3c860-8d1c-11eb-94fa-bf82f65af752",
+          "dropzoneID": "root",
+          "parentID": "root",
+          "showBasicContent": false,
+          "initialElements": [
+            {
+              "id": "bee10230-8d1c-11eb-94fa-bf82f65af752",
+              "type": "FRAGMENTS",
+              "name": "ItemABRecommendation",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "ItemABRecommendation",
+                "fragment": "ItemABRecommendation",
+                "fragmentComponent": "GenericComponent",
+                "data": "itemabrecommendationlist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 8,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 8,
+              "key": "bee10230-8d1c-11eb-94fa-bf82f65af752",
+              "dropzoneID": "1",
+              "parentID": "b9b3c860-8d1c-11eb-94fa-bf82f65af752",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ],
+          "fields": [
+            {
+              "id": "bee10230-8d1c-11eb-94fa-bf82f65af752",
+              "type": "FRAGMENTS",
+              "name": "ItemABRecommendation",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "ItemABRecommendation",
+                "fragment": "ItemABRecommendation",
+                "fragmentComponent": "GenericComponent",
+                "data": "itemabrecommendationlist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 8,
+                "columnWidth": "full",
+                "saleReq": false,
+                "isFooterReq": true,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 8,
+              "key": "bee10230-8d1c-11eb-94fa-bf82f65af752",
+              "dropzoneID": "1",
+              "parentID": "b9b3c860-8d1c-11eb-94fa-bf82f65af752",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ]
+        },
+        {
+          "id": "b9c45350-2fcb-11eb-8491-59e3c09151b2",
+          "type": "GRID_LAYOUT_1_1",
+          "name": "Row",
+          "payload": {
+            "dropped": true
+          },
+          "fragname": "Row",
+          "fragdata": "rowlist",
+          "fragorder": 0,
+          "childColumnWidth": "full",
+          "style": "oj-sm-12 oj-md-12 oj-lg-12",
+          "compdata": "",
+          "key": "b9c45350-2fcb-11eb-8491-59e3c09151b2",
+          "dropzoneID": "root",
+          "parentID": "root",
+          "showBasicContent": false,
+          "initialElements": [
+            {
+              "id": "c70285f0-2fcb-11eb-8491-59e3c09151b2",
+              "type": "COMPONENT",
+              "name": "PDPDeals",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "PDPDeals",
+                "fragment": "PDPDeals",
+                "fragmentComponent": "GenericComponent",
+                "data": "pdpdealslist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 4,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 4,
+              "key": "c70285f0-2fcb-11eb-8491-59e3c09151b2",
+              "dropzoneID": "1",
+              "parentID": "b9c45350-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ],
+          "fields": [
+            {
+              "id": "c70285f0-2fcb-11eb-8491-59e3c09151b2",
+              "type": "COMPONENT",
+              "name": "PDPDeals",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "PDPDeals",
+                "fragment": "PDPDeals",
+                "fragmentComponent": "GenericComponent",
+                "data": "pdpdealslist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 4,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 4,
+              "key": "c70285f0-2fcb-11eb-8491-59e3c09151b2",
+              "dropzoneID": "1",
+              "parentID": "b9c45350-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": []
+            }
+          ]
+        },
+        {
+          "id": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+          "type": "GRID_LAYOUT_1_1",
+          "name": "Row",
+          "payload": {
+            "dropped": true
+          },
+          "fragname": "Row",
+          "fragdata": "rowlist",
+          "fragorder": 0,
+          "childColumnWidth": "full",
+          "style": "oj-sm-12 oj-md-12 oj-lg-12",
+          "compdata": "",
+          "key": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+          "dropzoneID": "root",
+          "parentID": "root",
+          "showBasicContent": false,
+          "initialElements": [
+            {
+              "id": "81460f70-3398-11eb-b0d3-0b6c5687099a",
+              "type": "FRAGMENTS",
+              "name": "UserRecommend",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "UserRecommend",
+                "fragment": "UserRecommend",
+                "fragmentComponent": "GenericComponent",
+                "data": "userrecommendlist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 7,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 7,
+              "key": "81460f70-3398-11eb-b0d3-0b6c5687099a",
+              "dropzoneID": "1",
+              "parentID": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": [
+                {
+                  "id": "a3a9e530-32d7-11eb-8efc-01b8e40e3c69",
+                  "type": "FRAGMENTS",
+                  "name": "Recommend",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "Row",
+                  "fragArr": {
+                    "title": "Recommend",
+                    "fragment": "Recommend",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "recommendlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 6,
+                    "columnWidth": "full",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "full",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-12",
+                  "compdata": "",
+                  "fragorder": 6,
+                  "key": "a3a9e530-32d7-11eb-8efc-01b8e40e3c69",
+                  "dropzoneID": "1",
+                  "parentID": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": [
+                    {
+                      "id": "cb7d5fb0-2fcb-11eb-8491-59e3c09151b2",
+                      "type": "FRAGMENTS",
+                      "name": "UserRecommend",
+                      "payload": {
+                        "dropped": true
+                      },
+                      "parentname": "Row",
+                      "fragArr": {
+                        "title": "UserRecommend",
+                        "fragment": "UserRecommend",
+                        "fragmentComponent": "GenericComponent",
+                        "data": "userrecommendlist",
+                        "scrollreqd": true,
+                        "noofitems": 5,
+                        "styleclass": "abcd",
+                        "order": 5,
+                        "columnWidth": "full",
+                        "isFooterReq": true,
+                        "saleReq": false,
+                        "sortReq": true,
+                        "paginationReq": true
+                      },
+                      "childColumnWidth": "full",
+                      "style": "oj-sm-12 oj-md-12 oj-lg-12",
+                      "compdata": "",
+                      "fragorder": 5,
+                      "key": "cb7d5fb0-2fcb-11eb-8491-59e3c09151b2",
+                      "dropzoneID": "1",
+                      "parentID": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+                      "showBasicContent": false,
+                      "initialElements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "id": "81460f70-3398-11eb-b0d3-0b6c5687099a",
+              "type": "FRAGMENTS",
+              "name": "UserRecommend",
+              "payload": {
+                "dropped": true
+              },
+              "parentname": "Row",
+              "fragArr": {
+                "title": "UserRecommend",
+                "fragment": "UserRecommend",
+                "fragmentComponent": "GenericComponent",
+                "data": "userrecommendlist",
+                "scrollreqd": true,
+                "noofitems": 5,
+                "styleclass": "abcd",
+                "order": 7,
+                "columnWidth": "full",
+                "isFooterReq": true,
+                "saleReq": false,
+                "sortReq": true,
+                "paginationReq": true
+              },
+              "childColumnWidth": "full",
+              "style": "oj-sm-12 oj-md-12 oj-lg-12",
+              "compdata": "",
+              "fragorder": 7,
+              "key": "81460f70-3398-11eb-b0d3-0b6c5687099a",
+              "dropzoneID": "1",
+              "parentID": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+              "showBasicContent": false,
+              "initialElements": [
+                {
+                  "id": "a3a9e530-32d7-11eb-8efc-01b8e40e3c69",
+                  "type": "FRAGMENTS",
+                  "name": "Recommend",
+                  "payload": {
+                    "dropped": true
+                  },
+                  "parentname": "Row",
+                  "fragArr": {
+                    "title": "Recommend",
+                    "fragment": "Recommend",
+                    "fragmentComponent": "GenericComponent",
+                    "data": "recommendlist",
+                    "scrollreqd": true,
+                    "noofitems": 5,
+                    "styleclass": "abcd",
+                    "order": 6,
+                    "columnWidth": "full",
+                    "isFooterReq": true,
+                    "saleReq": false,
+                    "sortReq": true,
+                    "paginationReq": true
+                  },
+                  "childColumnWidth": "full",
+                  "style": "oj-sm-12 oj-md-12 oj-lg-12",
+                  "compdata": "",
+                  "fragorder": 6,
+                  "key": "a3a9e530-32d7-11eb-8efc-01b8e40e3c69",
+                  "dropzoneID": "1",
+                  "parentID": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+                  "showBasicContent": false,
+                  "initialElements": [
+                    {
+                      "id": "cb7d5fb0-2fcb-11eb-8491-59e3c09151b2",
+                      "type": "FRAGMENTS",
+                      "name": "UserRecommend",
+                      "payload": {
+                        "dropped": true
+                      },
+                      "parentname": "Row",
+                      "fragArr": {
+                        "title": "UserRecommend",
+                        "fragment": "UserRecommend",
+                        "fragmentComponent": "GenericComponent",
+                        "data": "userrecommendlist",
+                        "scrollreqd": true,
+                        "noofitems": 5,
+                        "styleclass": "abcd",
+                        "order": 5,
+                        "columnWidth": "full",
+                        "isFooterReq": true,
+                        "saleReq": false,
+                        "sortReq": true,
+                        "paginationReq": true
+                      },
+                      "childColumnWidth": "full",
+                      "style": "oj-sm-12 oj-md-12 oj-lg-12",
+                      "compdata": "",
+                      "fragorder": 5,
+                      "key": "cb7d5fb0-2fcb-11eb-8491-59e3c09151b2",
+                      "dropzoneID": "1",
+                      "parentID": "b90bb1b0-2fcb-11eb-8491-59e3c09151b2",
+                      "showBasicContent": false,
+                      "initialElements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "wrapperObj": ["PDP0"]
+}

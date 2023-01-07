@@ -1,0 +1,741 @@
+{
+    "wrapperArr": [
+        {
+            "Content": [
+                {
+                    "name": "Header",
+                    "component": "Header",
+                    "size": "full",
+                    "isContent": false,
+                    "layout_order": 1,
+                    "row": 1.11,
+                    "subsections": [
+                        {
+                            "parentComponent": "Header",
+                            "component": "Logo",
+                            "order": 8,
+                            "columnWidth": "double",
+                            "row": 1.11
+                        },
+                        {
+                            "parentComponent": "Header",
+                            "component": "Search",
+                            "order": 2,
+                            "columnWidth": "half",
+                            "row": 1.12
+                        },
+                        {
+                            "parentComponent": "Header",
+                            "component": "Userprofile",
+                            "order": 4,
+                            "columnWidth": "moreThanQuarter",
+                            "row": 1.13
+                        },
+                        {
+                            "parentComponent": "Header",
+                            "component": "Navigation",
+                            "order": 5,
+                            "columnWidth": "full",
+                            "row": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Content",
+                    "component": "Content",
+                    "size": "full",
+                    "isContent": true,
+                    "layout_order": 2,
+                    "row": 3
+                },
+                {
+                    "name": "Footer",
+                    "component": "Footer",
+                    "size": "full",
+                    "isContent": false,
+                    "layout_order": 3,
+                    "row": 4,
+                    "subsections": {
+                        "component": "Footer",
+                        "subFooter1Req": true,
+                        "subFooter2Req": true,
+                        "subFooter3Req": true,
+                        "chatbotReq": true,
+                        "row": 4
+                    }
+                }
+            ],
+            "Structure": [
+                {
+                    "id": "69fe8da0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "type": "GRID_LAYOUT_1_1",
+                    "name": "Row",
+                    "payload": {
+                        "dropped": true
+                    },
+                    "fragname": "Row",
+                    "fragdata": "rowlist",
+                    "fragorder": 0,
+                    "childColumnWidth": "full",
+                    "key": "69fe8da0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "dropzoneID": "root",
+                    "parentID": "root",
+                    "showBasicContent": false,
+                    "initialElements": [
+                        {
+                            "id": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "GRID_LAYOUT_1_3",
+                            "name": "1/3 Grid",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 0,
+                            "key": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "69fe8da0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": [
+                                {
+                                    "id": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "type": "COMPONENT",
+                                    "name": "Logo",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Logo",
+                                        "order": 8,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 8,
+                                    "key": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "dropzoneID": "1",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": [
+                                        {
+                                            "id": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "type": "COMPONENT",
+                                            "name": "Search",
+                                            "payload": {
+                                                "dropped": true
+                                            },
+                                            "fragArr": {
+                                                "parentComponent": "Header",
+                                                "component": "Search",
+                                                "order": 7,
+                                                "columnWidth": "moreThanQuarter"
+                                            },
+                                            "childColumnWidth": "moreThanQuarter",
+                                            "fragorder": 7,
+                                            "key": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "dropzoneID": "1",
+                                            "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                            "showBasicContent": false,
+                                            "initialElements": [
+                                                {
+                                                    "id": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "type": "COMPONENT",
+                                                    "name": "Logo",
+                                                    "payload": {
+                                                        "dropped": true
+                                                    },
+                                                    "fragArr": {
+                                                        "parentComponent": "Header",
+                                                        "component": "Logo",
+                                                        "order": 1,
+                                                        "columnWidth": "moreThanQuarter"
+                                                    },
+                                                    "childColumnWidth": "moreThanQuarter",
+                                                    "fragorder": 1,
+                                                    "key": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "dropzoneID": "1",
+                                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "showBasicContent": false,
+                                                    "initialElements": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Userprofile",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Userprofile",
+                                        "order": 4,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 4,
+                                    "key": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "3",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                },
+                                {
+                                    "id": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Search",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Search",
+                                        "order": 2,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 2,
+                                    "key": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "2",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "type": "COMPONENT",
+                                    "name": "Logo",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Logo",
+                                        "order": 8,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 8,
+                                    "key": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "dropzoneID": "1",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": [
+                                        {
+                                            "id": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "type": "COMPONENT",
+                                            "name": "Search",
+                                            "payload": {
+                                                "dropped": true
+                                            },
+                                            "fragArr": {
+                                                "parentComponent": "Header",
+                                                "component": "Search",
+                                                "order": 7,
+                                                "columnWidth": "moreThanQuarter"
+                                            },
+                                            "childColumnWidth": "moreThanQuarter",
+                                            "fragorder": 7,
+                                            "key": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "dropzoneID": "1",
+                                            "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                            "showBasicContent": false,
+                                            "initialElements": [
+                                                {
+                                                    "id": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "type": "COMPONENT",
+                                                    "name": "Logo",
+                                                    "payload": {
+                                                        "dropped": true
+                                                    },
+                                                    "fragArr": {
+                                                        "parentComponent": "Header",
+                                                        "component": "Logo",
+                                                        "order": 1,
+                                                        "columnWidth": "moreThanQuarter"
+                                                    },
+                                                    "childColumnWidth": "moreThanQuarter",
+                                                    "fragorder": 1,
+                                                    "key": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "dropzoneID": "1",
+                                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "showBasicContent": false,
+                                                    "initialElements": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Userprofile",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Userprofile",
+                                        "order": 4,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 4,
+                                    "key": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "3",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                },
+                                {
+                                    "id": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Search",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Search",
+                                        "order": 2,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 2,
+                                    "key": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "2",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                }
+                            ]
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "id": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "GRID_LAYOUT_1_3",
+                            "name": "1/3 Grid",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 0,
+                            "key": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "69fe8da0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": [
+                                {
+                                    "id": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "type": "COMPONENT",
+                                    "name": "Logo",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Logo",
+                                        "order": 8,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 8,
+                                    "key": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "dropzoneID": "1",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": [
+                                        {
+                                            "id": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "type": "COMPONENT",
+                                            "name": "Search",
+                                            "payload": {
+                                                "dropped": true
+                                            },
+                                            "fragArr": {
+                                                "parentComponent": "Header",
+                                                "component": "Search",
+                                                "order": 7,
+                                                "columnWidth": "moreThanQuarter"
+                                            },
+                                            "childColumnWidth": "moreThanQuarter",
+                                            "fragorder": 7,
+                                            "key": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "dropzoneID": "1",
+                                            "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                            "showBasicContent": false,
+                                            "initialElements": [
+                                                {
+                                                    "id": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "type": "COMPONENT",
+                                                    "name": "Logo",
+                                                    "payload": {
+                                                        "dropped": true
+                                                    },
+                                                    "fragArr": {
+                                                        "parentComponent": "Header",
+                                                        "component": "Logo",
+                                                        "order": 1,
+                                                        "columnWidth": "moreThanQuarter"
+                                                    },
+                                                    "childColumnWidth": "moreThanQuarter",
+                                                    "fragorder": 1,
+                                                    "key": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "dropzoneID": "1",
+                                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "showBasicContent": false,
+                                                    "initialElements": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Userprofile",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Userprofile",
+                                        "order": 4,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 4,
+                                    "key": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "3",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                },
+                                {
+                                    "id": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Search",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Search",
+                                        "order": 2,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 2,
+                                    "key": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "2",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "id": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "type": "COMPONENT",
+                                    "name": "Logo",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Logo",
+                                        "order": 8,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 8,
+                                    "key": "4d744900-a07f-11ec-9f72-9b93adb1f5b0",
+                                    "dropzoneID": "1",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": [
+                                        {
+                                            "id": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "type": "COMPONENT",
+                                            "name": "Search",
+                                            "payload": {
+                                                "dropped": true
+                                            },
+                                            "fragArr": {
+                                                "parentComponent": "Header",
+                                                "component": "Search",
+                                                "order": 7,
+                                                "columnWidth": "moreThanQuarter"
+                                            },
+                                            "childColumnWidth": "moreThanQuarter",
+                                            "fragorder": 7,
+                                            "key": "3fe33b70-a07f-11ec-9f72-9b93adb1f5b0",
+                                            "dropzoneID": "1",
+                                            "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                            "showBasicContent": false,
+                                            "initialElements": [
+                                                {
+                                                    "id": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "type": "COMPONENT",
+                                                    "name": "Logo",
+                                                    "payload": {
+                                                        "dropped": true
+                                                    },
+                                                    "fragArr": {
+                                                        "parentComponent": "Header",
+                                                        "component": "Logo",
+                                                        "order": 1,
+                                                        "columnWidth": "moreThanQuarter"
+                                                    },
+                                                    "childColumnWidth": "moreThanQuarter",
+                                                    "fragorder": 1,
+                                                    "key": "71472d60-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "dropzoneID": "1",
+                                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                                    "showBasicContent": false,
+                                                    "initialElements": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Userprofile",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Userprofile",
+                                        "order": 4,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 4,
+                                    "key": "74a106c0-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "3",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                },
+                                {
+                                    "id": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "type": "COMPONENT",
+                                    "name": "Search",
+                                    "payload": {
+                                        "dropped": true
+                                    },
+                                    "fragArr": {
+                                        "parentComponent": "Header",
+                                        "component": "Search",
+                                        "order": 2,
+                                        "columnWidth": "moreThanQuarter"
+                                    },
+                                    "childColumnWidth": "moreThanQuarter",
+                                    "fragorder": 2,
+                                    "key": "723e3790-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "dropzoneID": "2",
+                                    "parentID": "6f6ca100-2f3e-11eb-927d-cb4cf917b8b0",
+                                    "showBasicContent": false,
+                                    "initialElements": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "6c52b6d0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "type": "GRID_LAYOUT_1_1",
+                    "name": "Row",
+                    "payload": {
+                        "dropped": true
+                    },
+                    "fragname": "Row",
+                    "fragdata": "rowlist",
+                    "fragorder": 0,
+                    "childColumnWidth": "full",
+                    "key": "6c52b6d0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "dropzoneID": "root",
+                    "parentID": "root",
+                    "showBasicContent": false,
+                    "initialElements": [
+                        {
+                            "id": "7622ebd0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "COMPONENT",
+                            "name": "Navigation",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "fragArr": {
+                                "parentComponent": "Header",
+                                "component": "Navigation",
+                                "order": 5,
+                                "columnWidth": "full"
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 5,
+                            "key": "7622ebd0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "6c52b6d0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": []
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "id": "7622ebd0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "COMPONENT",
+                            "name": "Navigation",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "fragArr": {
+                                "parentComponent": "Header",
+                                "component": "Navigation",
+                                "order": 5,
+                                "columnWidth": "full"
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 5,
+                            "key": "7622ebd0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "6c52b6d0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6d5077c0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "type": "GRID_LAYOUT_1_1",
+                    "name": "Row",
+                    "payload": {
+                        "dropped": true
+                    },
+                    "fragname": "Row",
+                    "fragdata": "rowlist",
+                    "fragorder": 0,
+                    "childColumnWidth": "full",
+                    "key": "6d5077c0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "dropzoneID": "root",
+                    "parentID": "root",
+                    "showBasicContent": false,
+                    "initialElements": [
+                        {
+                            "id": "77f3db40-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "SECTIONS",
+                            "name": "Content",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "fragArr": {
+                                "component": "Content"
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 5,
+                            "key": "77f3db40-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "6d5077c0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": []
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "id": "77f3db40-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "SECTIONS",
+                            "name": "Content",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "fragArr": {
+                                "component": "Content"
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 5,
+                            "key": "77f3db40-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "6d5077c0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": []
+                        }
+                    ]
+                },
+                {
+                    "id": "6b4b31e0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "type": "GRID_LAYOUT_1_1",
+                    "name": "Row",
+                    "payload": {
+                        "dropped": true
+                    },
+                    "fragname": "Row",
+                    "fragdata": "rowlist",
+                    "fragorder": 0,
+                    "childColumnWidth": "full",
+                    "key": "6b4b31e0-2f3e-11eb-927d-cb4cf917b8b0",
+                    "dropzoneID": "root",
+                    "parentID": "root",
+                    "showBasicContent": false,
+                    "initialElements": [
+                        {
+                            "id": "798f62d0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "SECTIONS",
+                            "name": "Footer",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "fragArr": {
+                                "component": "Footer",
+                                "subFooter1Req": true,
+                                "subFooter2Req": true,
+                                "subFooter3Req": true,
+                                "chatbotReq": true
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 5,
+                            "key": "798f62d0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "6b4b31e0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": []
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "id": "798f62d0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "type": "SECTIONS",
+                            "name": "Footer",
+                            "payload": {
+                                "dropped": true
+                            },
+                            "fragArr": {
+                                "component": "Footer",
+                                "subFooter1Req": true,
+                                "subFooter2Req": true,
+                                "subFooter3Req": true,
+                                "chatbotReq": true
+                            },
+                            "childColumnWidth": "full",
+                            "fragorder": 5,
+                            "key": "798f62d0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "dropzoneID": "1",
+                            "parentID": "6b4b31e0-2f3e-11eb-927d-cb4cf917b8b0",
+                            "showBasicContent": false,
+                            "initialElements": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "wrapperObj": [
+        "Layout0"
+    ]
+}
